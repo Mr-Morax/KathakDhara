@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kathak MUdras | The art of Expression</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+    <div class="logo">
+        <img src="logo.png" alt="logo">
+        
+        </div>
+    <ul>
+        <li><a href="finger.html">Finger Names</a></li>
+        <li><a href="asamyukta.html">Single Hand</a></li>
+        <li><a href="samyukta.html">Double Hand</a></li>
+        <li>History</li>
+    </ul>
+</nav>
+
+<section class="container">
+    <h1 class="heading">KATHAK MUDRAS</h1>
+    
+
+    <div class="mudra-grid">
+        <div class="mudra-card" onclick="navigateToPage('asamyukta.html')">
+            <div class="mudra-image"  style="background-image: url('asamyukta.jpeg');"></div>
+            <div class="mudra-info">
+                <h3> Asamyukta Mudras </h3>
+                <p>28 types of mudras, performed with one hand.</p>
+            </div>
+        </div>
+
+        <a href="samyukta.html" class="tab-link">
+            
+            <div class="mudra-card" >
+                <div class="mudra-image" style="background-image: url('samyukta.jpeg');"></div>
+                <div class="mudra-info">
+                    <h3>Samyukta Mudras</h3>
+                    <p>23 types of Mudras , performed with both hands.</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

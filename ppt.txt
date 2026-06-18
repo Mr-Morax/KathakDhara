@@ -1,0 +1,73 @@
+Slide 1: Title Slide
+Project Name: Kathak Dhara
+
+Tagline: A Digital Gateway to the Language of Hands
+
+Presented by: [Your Name]
+
+Tech Stack: HTML5 | CSS3 | JavaScript
+
+Slide 2: Introduction
+What is Kathak Dhara? A web platform designed to preserve and showcase the intricate Hand Mudras of Kathak.
+
+The Problem: Traditional dance texts are hard to navigate for beginners.
+
+The Solution: A lightweight, interactive website that classifies and explains Mudras visually.
+
+Slide 3: Project Objectives
+Provide a digital catalog of Asamyuta (single) and Samyuta (double) hand gestures.
+
+Offer clear visual representations to ensure students learn the correct finger positions.
+
+Create a fast, "zero-dependency" web tool that works on any browser.
+
+Slide 4: Technical Stack
+HTML5: Used for semantic structure and content organization.
+
+CSS3: Custom styling, Flexbox/Grid for the Mudra gallery, and smooth transitions to reflect the elegance of Kathak.
+
+JavaScript: The engine behind the project—handling the classification logic, search filters, and dynamic content rendering.
+
+Slide 5: Data Classification Logic
+The Mudra Database: How gestures are stored in a JavaScript Object/Array.
+
+Categories: * Asamyuta Hastas (28 primary gestures like Pataka, Mushti).
+
+Samyuta Hastas (24 primary gestures like Anjali, Kapota).
+
+Metadata: Each entry includes the name, image path, and the Shloka or meaning.
+
+Slide 6: Key Features
+Dynamic Filtering: Instantly switch between single-hand and double-hand categories using JS.
+
+Search Functionality: A real-time search bar to find specific Mudras by name.
+
+Interactive Modals: Clicking a Mudra opens a detailed view with its specific usage (Viniyogas).
+
+Slide 7: UI/UX Design
+Minimalist Aesthetic: Using a color palette that resonates with Indian Classical Culture (e.g., Deep Reds, Golds, or Clean Whites).
+
+Responsive Design: Fully functional on mobile devices (crucial for students practicing in a dance studio).
+
+Performance: No heavy frameworks mean near-instant load times.
+
+Slide 8: Development Challenges
+Image Precision: Ensuring high-quality photos clearly show the finger alignments.
+
+Data Accuracy: Verifying names and meanings against authentic sources like the Abhinaya Darpana.
+
+State Management: Handling UI updates smoothly using Vanilla JS DOM manipulation.
+
+Slide 9: Future Roadmap
+Interactive Quizzes: A JS-based "Identify the Mudra" game for students.
+
+Video Integration: Adding short clips of the "Chakra" or movement for each gesture.
+
+Multilingual Support: Providing descriptions in Hindi and Sanskrit.
+
+Slide 10: Conclusion & Q&A
+Summary: Kathak Dhara is a step toward digitizing Indian heritage using modern web tools.
+
+Closing Statement: "Technology is the new stage for ancient traditions."
+
+Questions? (Open floor for the audience).

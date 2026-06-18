@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(135deg, #2c003e, #fe2851); /* Deep royal colors */
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0px 40px;
+}
+
+.navigation ul{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap : 30px;
+    list-style: none;
+}
+
+
+.navigation a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.logo img{
+    width: 120px;
+    height: auto;
+    border-radius: 100%;
+    outline: 4px solid white;
+    outline-offset: 5px;
+}
+
+.mudra-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+.mudra-card {
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* The Pop-Out effect we created earlier */
+.mudra-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.mudra-image {
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 15px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    color: #ffd700; /* Gold for a royal touch */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.tab-link{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
